@@ -34,7 +34,7 @@
   * VGG19: A convolutional neural network that is 19 layers deep.
   * BN (Batch Normalization): used to make training of artificial neural networks faster and more stable.
 <div align = center>
-<img src="Figures/Bn.png" width="400"><img src="Figures/VGG19_BN_Sturcture.png" width="500">
+<img src="Figures/Bn.png" width="300"><img src="Figures/VGG19_BN_Sturcture.png" width="400">
 </div>
 
 3. Training and validating
