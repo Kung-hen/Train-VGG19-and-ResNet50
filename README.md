@@ -1,8 +1,8 @@
-# Structure of the training model
+# Training Model Structure for Classification Task
 
 *Discription:*
 
-***1.Training Model Structure of VGG19 and ResNet50 for Classification task.***
+***1.In this project, we implemented two convolutional neural network architectures, namely VGG19 and ResNet50, for the task of image classification. These architectures are renowned for their effectiveness in various computer vision tasks, including image recognition and classification.***
 
 
 **1.Requirements and dependencies**
@@ -32,7 +32,24 @@
 2.Structure discription :
 
   * VGG19: A convolutional neural network that is 19 layers deep.
-  * BN (Batch Normalization): used to make training of artificial neural networks faster and more stable.<img src="Figures/Bn.png" width="500">
+  * BN (Batch Normalization): used to make training of artificial neural networks faster and more stable.
+<div align = center>
+<img src="Figures/Bn.png" width="400"><img src="Figures/VGG19_BN_Sturcture.png" width="500">
+</div>
+
+3. Training and validating
+
+  * Training and validating VGG19 with BN at least 40 epochs.
+  * If your validation accuracy is low, you can try :
+      * Adjust the learning rate of the optimizer.
+      * Change the data augmentation techniques used.
+        
+<div align = center>
+<img src="Figures/Accuracy and loss.png" >
+</div>
+
+
+
 
 ## 2.CIFAR10
 
@@ -44,6 +61,6 @@
       * Training dataset: 50000 images in total.
       * Validation dataset: 10000 images in total.
       * Testing dataset: 10 images in total. (Generating from validation dataset.)
-
+<img src="Figures/CIFAR10.png">
 
 
