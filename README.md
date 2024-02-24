@@ -23,7 +23,7 @@
 3. Automatically download the dataset.
 4. Save the model if you want.
 
-## 1.VGG19-BN
+## 1.VGG19-CIFAR10
 
 1.Objective :
   
@@ -47,9 +47,6 @@
 <div align = center>
 <img src="Figures/Accuracy and loss.png" >
 </div>
-
-
-
 
 ## 2.CIFAR10
 
