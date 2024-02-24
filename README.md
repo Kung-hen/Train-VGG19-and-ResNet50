@@ -4,8 +4,6 @@
 
 ***1.Training Model Structure of VGG19 and ResNet50 for Classification task.***
 
-![image](GUI.png)
-
 
 **1.Requirements and dependencies**
   * Python 3.8 (https://www.python.org/downloads/)
@@ -21,9 +19,9 @@
 **2.Usage:**
 
 1. Downloads whole repository.
-2. Run `python start.py` .
-3. Input the image.
-4. Run the whole code.
+2. Run the file and follow the steps .
+3. Automatically download the dataset.
+4. Save the model if you want.
 
 ## 1.VGG19-BN
 
